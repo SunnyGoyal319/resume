@@ -2,8 +2,30 @@ body,h1,h2,h3,h4,h5,h6,p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .p{
-    background-color: rgba(240, 244, 245, 0.938);
+    background-color: rgba(225, 250, 246, 0.938);
     padding-block: 100px 100px;
     padding: 15px;
     box-shadow: 5px 5px 10px;
+}
+footer{
+    height: 70px;
+    width: 100%;
+    clear: both;
+    background-color: teal;
+    bottom: 0;
+    position: fixed;
+}
+#left-side{
+    float: left;
+    width:50%;
+}
+#right-side{
+    float: right;
+    width: 15%;
+}
+.img1{
+    border-radius: 35%;
+}
+.img1:hover{
+    transform: scale(1.1);
 }
